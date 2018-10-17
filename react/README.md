@@ -16,9 +16,9 @@ mutation(변화) 하지 말고 대신 데이터가 바뀌면, 그냥 뷰를 날�
 
 #### React and the Virtual DOM 
 
- ![virtual-dom](/jpg/virtual-dom1.jpg)
+ ![virtual-dom](/react/jpg/virtual-dom1.jpg)
 
-![virtual-dom](/jpg/virtual-dom2.jpg)
+![virtual-dom](/react/jpg/virtual-dom2.jpg)
 
 
 
@@ -81,7 +81,7 @@ function foo() {
 
 
 
-![LifeCycleAPI](/jpg/LifeCycle-API.jpg)
+![LifeCycleAPI](/react/jpg/LifeCycle-API.jpg)
 
 
 
@@ -109,7 +109,7 @@ yarn start
 
 ### 자식 컴포넌트가 부모한테 값 전달하기
 
-![handleCreate](/jpg/handleCreate.jpg)
+![handleCreate](/react/jpg/handleCreate.jpg)
 
 
 
