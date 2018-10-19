@@ -113,15 +113,17 @@ yarn start
 
 
 
-
+ 
 
 
 
 ```react
+//App.js
+
 state = {
     information: [],
 }
-//기존에 있던 배열은 수정하지 않고 data를 information에 넣어야한다
+//기존에 있던 배열은 수정하지 않고 새로운 배열을 만들어서 값을 주입해 주어야 함
 handleCreate = (data) => {
     this.setState({
         information: this.state.information.concat(data)
