@@ -16,12 +16,14 @@ class PhoneForm extends Component {
     handleSubmit = (e) => {
         //page가 reloading되는것을 방지하기 위함
         e.preventDefault();
-        // this.props.onCreate({
-        //     name: this.state.name,
-        //     phone: this.state.phone,
-        // });
-        //onCreate 함수호출
+        
+         //onCreate 함수호출
+            // this.props.onCreate({
+            //     name: this.state.name,
+            //     phone: this.state.phone,
+            // }); 아랫줄과 같은 뜻
         this.props.onCreate(this.state);
+        // 기존 입력값 초기화
         this.setState({
             name: '',
             phone: '',

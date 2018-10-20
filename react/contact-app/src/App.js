@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PhoneForm from './components/PhoneForm';
 
 class App extends Component {
-
+  id = 0;
   state = {
     information: [],
   }
@@ -10,8 +10,10 @@ class App extends Component {
   handleCreate = (data) => {
     const { information } = this.state;
     this.setState({
-      //information: this.state.information.concat(data)
-      information: information.concat(data)
+      information: information.concat({
+        ...data,
+        id: this.id++
+      })
     })
   }
 
